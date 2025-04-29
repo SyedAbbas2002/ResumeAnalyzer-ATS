@@ -1,0 +1,24 @@
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class ReportGenerator {
+    public static void generateReport(String resume, String jobDescription, int score, String matchAnalysis, String improvements) {
+        try (FileWriter writer = new FileWriter("analysis-report.txt")) {
+            writer.write("Analysis Report: Resume vs Job Description Matching\n");
+            writer.write("\n");
+            writer.write("Resume: " + resume + "\n");
+            writer.write("Job Description: " + jobDescription + "\n");
+            writer.write("\n");
+            writer.write("Resume Score: " + score + "/100\n");
+            writer.write("\n");
+            writer.write("Match Analysis:\n" + matchAnalysis + "\n");
+            writer.write("\n");
+            writer.write("Suggested Improvements:\n" + improvements + "\n");
+            writer.write("\n");
+            writer.write("----------------------------------------------------\n");
+            writer.write("Analysis conducted on: " + java.time.LocalDateTime.now() + "\n");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
