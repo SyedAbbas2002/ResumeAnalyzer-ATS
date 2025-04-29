@@ -1,0 +1,3 @@
+We are looking for a software engineer proficient in Java, Python, and Machine Learning.
+The candidate should also have strong experience with SQL and working knowledge of web technologies.
+Experience with frameworks such as Spring and Hibernate is a plus.
