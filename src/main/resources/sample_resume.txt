@@ -1,0 +1,6 @@
+Name: John Doe
+ Email: john.doe@example.com
+ Phone: +1234567890
+ Skills: Java, Python, C++, SQL, HTML, CSS
+ Education: B.Sc. in Computer Science
+ Experience:- Software Engineer at XYZ Ltd. (2019-2022)- Junior Developer at ABC Corp. (2017-2019)
