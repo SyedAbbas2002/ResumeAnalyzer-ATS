@@ -1,0 +1,25 @@
+# Java build directories
+/target/
+/bin/
+
+# Maven dependencies
+/.mvn/
+/.idea/
+/lib/
+
+# IntelliJ IDEA
+.idea/
+
+# Eclipse
+.project
+.classpath
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
